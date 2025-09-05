@@ -38,7 +38,7 @@ def suggest_improvements(sample):
     return tips
 
 # 📋 UI
-st.title("🧠 Alien Soil Doctor v2")
+st.title("🧠 Alien Soil Doctor V1")
 st.subheader("📤 Upload a planetary soil CSV")
 uploaded_file = st.file_uploader("Limit 200MB per file • CSV", type=["csv"])
 
