@@ -122,5 +122,4 @@ Live soil analysis through robotic probes
 
 👨‍🚀 Author
 
-Mridul Gupta
-🚀 AI & Robotics Enthusiast | ISRU Researcher
+Mridul Gupta 🚀  AI/ML Researcher | Reinforcement Learning • Autonomous Systems • Geospatial Intelligence | Passionate About Applying AI to Spacecraft Systems & Next-Gen Space Tech | Bridging Research & Real-World Innovation
