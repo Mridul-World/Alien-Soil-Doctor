@@ -1,9 +1,9 @@
-🌌 Alien Soil Doctor (ISRU Project)
+🌌 Alien Soil Doctor (ISRU Project):
 
 Alien Soil Doctor is an AI-powered project designed to evaluate alien soil habitability by extending Earth-based soil datasets with extraterrestrial parameters such as radiation levels, alien chemical index, and toxic compound risks.
 It is part of an In-Situ Resource Utilization (ISRU) research initiative and uses Reinforcement Learning (RL) for continual self-improvement.
 
-🚀 Features
+🚀 Features:
 
 ✅ Dataset preprocessing & balancing
 
@@ -17,7 +17,7 @@ It is part of an In-Situ Resource Utilization (ISRU) research initiative and use
 
 ✅ Execution batch file for one-click running
 
-📂 Project Structure
+📂 Project Structure:
 Alien-Soil-Doctor/
 │
 ├── main/
@@ -33,7 +33,7 @@ Alien-Soil-Doctor/
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Documentation
 
-📑 Dataset Requirements
+📑 Dataset Requirements:
 
 Your input dataset should be a CSV file with the following required columns:
 
@@ -58,7 +58,7 @@ Your input dataset should be a CSV file with the following required columns:
 
 ⚡ Note: If a required column is missing, scripts like Soil_main.py will auto-fill it with defaults (0.0).
 
-⚙️ Installation
+⚙️ Installation:
 
 Clone this repository:
 
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 Place your dataset in data/ (e.g., simulated_mars_soil_dataset.csv).
 
-▶️ Execution
+▶️ Execution:
 
 Run the full pipeline with:
 
@@ -92,7 +92,7 @@ Run UI for predictions & improvement tips (UI.py)
 
 Save results to alien_soil_predictions.csv
 
-🖥️ Example Output
+🖥️ Example Output:
 📦 Loading dataset...
 📥 Model loaded from /model/alien_soil_model_ep10000.keras
 🧠 Making predictions...
@@ -110,7 +110,7 @@ pause
 
 Double-click this file to run the project end-to-end.
 
-🔮 Future Scope
+🔮 Future Scope:
 
 Integration with real datasets (NASA/ESA/ISRO)
 
@@ -120,6 +120,6 @@ More advanced RL agents (PPO/DQN with GPU acceleration)
 
 Live soil analysis through robotic probes
 
-👨‍🚀 Author
+👨‍🚀 Author:
 
 Mridul Gupta 🚀  AI/ML Researcher | Reinforcement Learning • Autonomous Systems • Geospatial Intelligence | Passionate About Applying AI to Spacecraft Systems & Next-Gen Space Tech | Bridging Research & Real-World Innovation
