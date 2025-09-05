@@ -41,7 +41,7 @@ Your input dataset should be a CSV file with the following required columns:
 | ---------------------- | ------------ | ----------------------------------------------------- |
 | `lat`                  | float        | Latitude coordinate                                   |
 | `lon`                  | float        | Longitude coordinate                                  |
-| `depth`                | float/string | Soil depth (numeric or ranges like `"0-30cm"`)        |
+| `depth`                | float/string | Soil depth (numeric or ranges like `"0-100cm"`)        |
 | `phh2o`                | float        | Soil pH in water                                      |
 | `soc`                  | float        | Soil organic carbon                                   |
 | `clay`                 | float        | Clay %                                                |
