@@ -28,10 +28,22 @@ Alien-Soil-Doctor/
 │   └── model_training.py      # Model training pipeline (TensorFlow/Keras)
 │
 ├── model/                     # Stores trained models (.keras, checkpoints)
+├── site/                      # Static web app deployed on Netlify
+├── scripts/export_weights.py  # Exports model weights to site/models/*.json
+├── netlify.toml               # Netlify config (publishes site/)
 │
 ├── alien_soil_doctor_run.bat  # Batch script to execute the project
-├── requirements.txt           # Python dependencies
+├── requirements-ml.txt        # Python dependencies (local training / Streamlit)
 └── README.md                  # Documentation
+
+🌐 Web App (Netlify):
+
+The site/ folder holds a static, in-browser version of the soil checker that is deployed on Netlify. Upload a CSV (or try the bundled sample) to get habitability predictions, confidence scores, improvement suggestions, a classification report when a habitat column is present, and a downloadable alien_soil_predictions.csv.
+
+It runs the trained dueling Q-network with its original weights, exported to JSON by scripts/export_weights.py, so the deploy doesn't need Python or TensorFlow. After retraining, re-export with:
+
+pip install h5py numpy
+python scripts/export_weights.py
 
 📑 Dataset Requirements:
 
@@ -68,7 +80,7 @@ cd Alien-Soil-Doctor
 
 Install dependencies:
 
-pip install -r requirements.txt
+pip install -r requirements-ml.txt
 
 
 Place your dataset in data/ (e.g., simulated_mars_soil_dataset.csv).

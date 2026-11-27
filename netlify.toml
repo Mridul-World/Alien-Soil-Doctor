@@ -1,0 +1,10 @@
+# The deployed site is a static, in-browser version of Alien Soil Doctor.
+# Model weights are pre-exported to site/models/ (see scripts/export_weights.py),
+# so no Python or TensorFlow is needed at build time.
+[build]
+  publish = "site"
+
+[[headers]]
+  for = "/models/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"

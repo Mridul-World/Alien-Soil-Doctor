@@ -1,3 +1,8 @@
+# Python dependencies for local training / Streamlit UI.
+# Named requirements-ml.txt (not requirements.txt) so Netlify does not try to
+# install TensorFlow during deploys. The website in site/ needs no Python.
+#   pip install -r requirements-ml.txt
+
 # ===========================
 # Core Scientific Libraries
 # ===========================
@@ -8,7 +13,8 @@ scipy>=1.11.0
 # ===========================
 # Machine Learning / Deep Learning
 # ===========================
-tensorflow[and-cuda]>=2.15.0
+# For NVIDIA GPU training use: tensorflow[and-cuda]>=2.15.0
+tensorflow>=2.15.0
 keras>=2.15.0
 scikit-learn>=1.3.0
 
